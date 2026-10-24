@@ -1,0 +1,7 @@
+NFT purchase offer
+
+Buyer: {user}
+NFT: <a href="{link}">open</a>
+Price: <b>{price}</b>
+
+To sell at this price, choose “Accept”. Otherwise, choose “Decline”.
