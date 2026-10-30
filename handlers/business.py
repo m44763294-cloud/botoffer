@@ -226,11 +226,14 @@ async def handle_business_message(message: Message, bot: Bot):
     t = LOCALES[lang]
     
     if currency in ("gram", "ton"):
-        price = f"{amount} gram"
+        price = f"{amount} 💎"
     elif currency in ("stars", "star", ""):
-        price = f"{amount} stars"
+        price = f"{amount}⭐️"
     else:
         price = f"{amount} {currency.upper()}"
+
+    gift_slug = link.split("/")[-1]
+    gift_name = gift_slug.replace("-", " #")
         
     gift_slug = link.split("/")[-1]
     gift_name = gift_slug.replace("-", " #")
