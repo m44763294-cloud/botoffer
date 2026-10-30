@@ -141,6 +141,25 @@ LOCALES = {
         ),
         "declined": "<b>❌ تم رفض العرض.</b>",
     },
+    "vi": {
+        "offer": (
+            'Người dùng <b>{user}</b> đang đề nghị mua món quà '
+            '<a href="{link}">{gift}</a> với giá <b>{price}</b>.'
+        ),
+        "accept": "Chấp nhận",
+        "decline": "Từ chối",
+        "sold": (
+            '🎁 Món quà: <a href="{link}">{gift}</a> đã được bán thành công!\n\n'
+            'Hãy chuyển món quà cho người mua để nhận <b>{price}</b>.'
+        ),
+        "transfer": "Chuyển món quà",
+        "how_to": "Cách chuyển?",
+        "alert": (
+            "Nhấn vào nút «Chuyển món quà» bên dưới tin nhắn.\n\n"
+            "Trong cửa sổ hiện ra, hãy xác nhận việc chuyển món quà."
+        ),
+        "declined": "<b>❌ Đề nghị đã bị từ chối.</b>",
+    },
 }
 
 
