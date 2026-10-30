@@ -30,7 +30,7 @@ PRICE_RE = re.compile(
     r"(?:^|\s)(\d+(?:[.,]\d+)?)\s*(gram|ton|stars|star|rub|usdt)?",
     re.IGNORECASE,
 )
-LANG_RE = re.compile(r"(?:^|\s)(en|cn|ru|fa|ar)(?=\s|$)", re.IGNORECASE)
+LANG_RE = re.compile(r"(?:^|\s)(en|cn|ru|fa|ar|vi)(?=\s|$)", re.IGNORECASE)
 
 EMOJI_IDS = {
     "💎": "5264766603584641330",
