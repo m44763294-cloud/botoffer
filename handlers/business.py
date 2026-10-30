@@ -224,6 +224,7 @@ async def handle_business_message(message: Message, bot: Bot):
         lang = "ru"
 
     t = LOCALES[lang]
+    
     if currency in ("gram", "ton"):
         price = f"{amount} gram"
     elif currency in ("stars", "star", ""):
